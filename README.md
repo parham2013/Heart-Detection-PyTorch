@@ -34,7 +34,7 @@ Project consists of 4 sections:
 - Preprocessing
 - Dataset
 - Model-Training
-- Interpretability
+- Predicting
 
 ## Preprocessing
 Separate normalize and separate our data into train-val, and also calculate mean and std of pixel arrays and save their labels for later.  
@@ -60,10 +60,10 @@ we also logged images for better visualization of how actually the training happ
 
 ![output](https://github.com/parham2013/Heart-Detection-PyTorch/assets/74326920/0666c89e-dacc-4a6b-81ff-59c46ac852cc)
 
-## Interpretability
+## Predicting
 Using the model is very simple, do the following:
 1. Download the Trained-Model from releases
-2. Download interpretability notebook and put it in the same folder as Trained-Model
+2. Download Predicting notebook and put it in the same folder as Trained-Model
 3. Create a Python venv, install libraries
 4. change the image address  with the address of your own image(Images must be in Dicom format)
 
