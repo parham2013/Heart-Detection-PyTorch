@@ -58,6 +58,8 @@ Example of image and box, both augmented in the same way:
 ![image](https://github.com/parham2013/Heart-Detection-PyTorch/assets/74326920/e43869e7-ce63-46ee-a957-45f6cbcdfe55)
 
 ### Model-Training
+Dataset used for this project: https://www.kaggle.com/c/rsna-pneumonia-detection-challenge  
+But labels are here: https://www.kaggle.com/datasets/vivekprajapati2048/rsnacardiacdetectionlabels  
 
 Loading datasets with corresponding paths to labels and actual data, defining data loader and then  
 creating CardiacDetectionModel, we used pretrained ResNet18 model with minor modification, using optim.Adam and MSELoss,
